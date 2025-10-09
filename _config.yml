@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+title                    : "About me"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,11 +24,11 @@ repository               : "academicpages/Sebastian-shiliyu.github.io"
 author:
   # Biographic information
   avatar           : "Liyu_Shi.png"
-  name             : "Liyu_Shi"
-  pronouns         :  "Liyu"  
+  name             : "Sebastian/Liyu_Shi"
+  pronouns         :  "A curious person"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Peking"
-  employer         : "None"
+  employer         : "Peking University"
   uri              : "https://Sebastian-Shiliyu.github.io"
   email            : "1964889015@qq.com" 
 
