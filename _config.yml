@@ -30,7 +30,7 @@ author:
   location         : "Peking"
   employer         : "Peking University"
   #uri              : "https://Sebastian-Shiliyu.github.io"
-  email：2210108327@stu.pku.edu.com            : "2210108327@stu.pku.edu.com" 
+  email            : "2210108327@stu.pku.edu.com" 
 
   # Academic websites
   academia         : #"Peking University"
@@ -106,16 +106,16 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email：2210108327@stu.pku.edu.com', 'url', 'message']
+  allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
   path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email：2210108327@stu.pku.edu.com', 'message']
+  requiredFields         : ['name', 'email', 'message']
   transforms:
-    email：2210108327@stu.pku.edu.com                : "md5"
+    email                : "md5"
   generatedFields:
     date:
       type               : "date"
