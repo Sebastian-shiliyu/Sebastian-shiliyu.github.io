@@ -15,7 +15,7 @@ You can find my CV here: [Liyu's Curriculum Vitae](../assets/Curriculum_Vitae.pd
 
 Education
 ======
-   · 2022/09 - now, Health Science Center, Peking University
+   · 2022/09 - now, Health Science Center, Peking University \
    · 2019/09 - 2022/06, Chongqing Youyang No.2 Middle School, Youyang, Chongqing
 
 Working Expererience
