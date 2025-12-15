@@ -1,6 +1,6 @@
 ---
 title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "Unbalanced Optimal Mass Transportation Model in mouse brain <br/><img src='/images/S0312_LagFluxVector_E01_07.png'>"
 collection: portfolio
 ---
 
