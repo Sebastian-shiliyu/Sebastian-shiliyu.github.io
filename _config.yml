@@ -23,7 +23,7 @@ repository               : "academicpages/Sebastian-shiliyu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Liyu_Shi.png"
+  avatar           : "/images/Liyu_Shi.png"
   name             : "Sebastian/Liyu_Shi"
   pronouns         :  "Curiosity"  
   bio              : "Like all kinds of things that are interesting."
