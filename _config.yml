@@ -22,7 +22,7 @@ repository               : "academicpages/Sebastian-shiliyu.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
+  # Biographic informationemail：2210108327@stu.pku.edu.com
   avatar           : "../images/Liyu_Shi.png"
   name             : "Sebastian/Liyu Shi"
   pronouns         :  "Curiosity"  
@@ -106,16 +106,16 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
+  allowedFields          : ['name', 'email：2210108327@stu.pku.edu.com', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
   moderation             : true
   path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  requiredFields         : ['name', 'email：2210108327@stu.pku.edu.com', 'message']
   transforms:
-    email                : "md5"
+    email：2210108327@stu.pku.edu.com                : "md5"
   generatedFields:
     date:
       type               : "date"
