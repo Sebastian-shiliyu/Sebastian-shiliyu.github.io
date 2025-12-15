@@ -11,7 +11,7 @@ I am a fourth-year Bachlor student in Medical Imaging Technology at [the Institu
 
 You can find my CV here: [Liyu's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
-[University Student Email](mailto:2210108327@stu.pku.edu.cn)/[Github](https://Sebastian-Shiliyu.github.io)/[Wechat](../images/wechat_QRcode.jpg) 
+[University Student Email](mailto:2210108327@stu.pku.edu.cn)/[Github](https://github.com/Sebastian-shiliyu)/[Wechat](../images/wechat_QRcode.jpg) 
 
 A data-driven personal website
 ======
