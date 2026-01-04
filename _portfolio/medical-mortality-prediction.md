@@ -648,6 +648,6 @@ print("4. 监控: 定期监控模型性能，及时更新模型")
 
 最佳簇数: 3；轮廓系数: 0.3324
 
-![聚类分析](/images/portfolio/medical-mortality-prediction/roc_curve.png)
+![聚类分析](/images/portfolio/medical-mortality-prediction/clustering_pca_tsne.png)
 
 
