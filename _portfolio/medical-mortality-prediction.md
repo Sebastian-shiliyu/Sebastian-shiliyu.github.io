@@ -3,7 +3,7 @@ title: "医疗数据死亡率预测分析"
 collection: portfolio
 type: "Data Analysis"
 permalink: /portfolio/medical-mortality-prediction
-date: 2024-01-15
+date: 2026-01-04
 excerpt: "基于ICU患者临床数据的探索性分析与死亡率预测模型构建，处理不平衡数据并解释模型决策"
 header:
   teaser: /images/portfolio/medical-mortality-prediction/target_distribution.png
