@@ -69,6 +69,11 @@ def preprocess_data(df):
         processed_df[col] = processed_df[col].clip(lower=lower_bound, upper=upper_bound)
     
     return processed_df
+```
+
+### 探索性数据分析（EDA）
+
+```python
 # 特征分布可视化
 def plot_numeric_distributions(df):
     """
@@ -117,6 +122,11 @@ def analyze_correlations(df):
     plt.show()
     
     return correlation_matrix
+```
+
+### 机器学习建模
+
+```python
 # 多层感知机(MLP)模型构建
 def build_mlp(input_dim):
     """
@@ -174,6 +184,11 @@ def train_and_evaluate(model, X_train, y_train, X_test, y_test,
     plt.show()
     
     return model, history, roc_auc, y_pred_proba
+```
+
+### 不平衡数据处理与模型解释
+
+```python
 # 使用SMOTE进行过采样处理不平衡数据
 from imblearn.over_sampling import SMOTE
 
@@ -206,3 +221,30 @@ def explain_model(model, X_test, feature_names):
     plt.show()
     
     return shap_values
+```
+
+## 分析结果
+
+### 数据质量分析
+
+目标变量分布显示明显的类别不平衡（死亡率仅5.88%），这需要在建模时特别处理。
+
+![目标变量分布](/images/portfolio/medical-mortality-prediction/target_distribution.png)
+
+缺失值分析显示所有实验室指标缺失率均超过30%，需要合理的填充策略。
+
+![缺失值热力图](/images/portfolio/medical-mortality-prediction/missing_values_heatmap.png)
+
+
+相关系数矩阵揭示了特征间的相关性结构，为特征选择提供依据。
+
+![相关系数](/images/portfolio/medical-mortality-prediction/correlation_heatmap.png)
+
+### 模型性能
+
+初始模型在原始不平衡数据上达到AUC 0.75，但存在对多数类的过度拟合。
+
+![ROC曲线](/images/portfolio/medical-mortality-prediction/roc_curve.png)
+
+
+
